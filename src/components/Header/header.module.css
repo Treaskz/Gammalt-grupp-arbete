@@ -1,0 +1,57 @@
+
+.headerWrapper{
+    height: 94px;
+    padding-top: 35px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+
+.innerHeader{
+    display: flex;
+    justify-content: space-between;
+    /* width: 1350px; */
+}
+
+
+.logo{
+    height: 60px;
+    padding-left: 82px;
+    margin-top: -15px;
+}
+
+.siteNavWrapper{
+    display: flex;
+}
+
+.siteNavigation{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    padding-right: 100px;
+    font-size: 20px;
+    line-height: 23,44px;
+}
+
+.siteNavigation > a {
+    text-decoration: none;
+    color: #232323;
+}
+
+.changeLang{
+    display: flex;
+    padding-right: 100px;
+    font-size: 20px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.langHead{
+    padding-right: 10px;
+    margin: 0;
+}
+
+.changeLang > i{
+    padding-top: 6px;
+}

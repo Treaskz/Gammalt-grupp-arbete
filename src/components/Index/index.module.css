@@ -1,0 +1,132 @@
+.heroContainer{
+    height: 900px;
+    width: 100%;
+    background : url('../../resources/images/hero.jpg') no-repeat;
+    background-size: cover;
+    padding-top: 250px;
+    padding-left: 90px;
+    margin: 94px auto 0 auto;
+}
+
+.heroBanner{
+    background-color: #232323;
+    height: 88px;
+    width: 654px;
+    padding: 0 30px;
+}
+
+.heroBannerText{
+    color: white;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 64px;
+    padding-top: 10px;
+}
+
+.textSection{
+    width: 480px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.h2Styling{
+    font-size: 18px;
+    font-weight: bold;   
+    line-height: 21px;
+    color: #232323;
+}
+
+.btnStyling{
+    border: 0px;
+    background-color: #232323;
+    border-radius: 5px;
+    width: 128px;
+    height: 40px;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btnStyling:hover, .buyBtnContainer > span:hover {
+    background-color: rgb(66, 66, 66);
+}
+
+#bikeSection {
+    padding: 100px 50px
+}
+
+#bikeSection h1 {
+    text-align: center;
+    font-size: 55px;
+    margin-bottom: 200px;
+}
+
+#bikeSection > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bikeSection section {
+    display: flex;
+    gap: 50px;
+}
+
+#bikeSection section article {
+    padding: 20px 40px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+#bikeSection section article > header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bikeSection section article > footer div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#bikeSection section article h3 {
+    font-size: 35px;
+}
+
+#bikeSection section article h4 {
+    font-size: 25px;
+}
+
+#bikeSection img {
+    width: 300px;
+    height: 152px;
+    text-align: center;
+    margin-top: -90px;
+}
+
+.specTitle {
+    margin: 50px 0 10px 0;
+    font-weight: 600;
+}
+
+.buyBtnContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.buyBtnContainer > span {
+    margin: 30px 0 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    cursor:pointer;
+}

@@ -1,0 +1,67 @@
+#newsWrapper {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 98px;
+
+    margin-top: 150px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsBanner{
+    background-color: #232323;
+    height: 94px;
+    width: 600px;
+}
+
+.newsTitle{
+    color: white;
+    font-size: 55px;
+    padding-bottom: 30px;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.newsText{
+    font-size: 25px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.selectContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    padding-bottom: 27px;
+}
+
+.selectBox1, .selectBox2{
+    border: 1px solid black;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.menu{
+    list-style: none;
+    cursor: pointer;
+}
+
+.li{
+    margin: 20px;
+    text-align: center;
+}
+
+.liTitle{
+    padding-bottom: 10px;
+}
+
+.liDate{
+    padding-bottom: 5px;
+}
+
+.liCategory{
+    padding-bottom: 5px;
+}
